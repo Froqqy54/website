@@ -1,0 +1,5 @@
+must include: estimated calories, carbs, sugar, salt etc.
+must include: dietary restrictions(peanuts, nuts, vegetarian), diets(keto, etc.), calories carbs sugar salt etc.
+must include: ingredients alongside amounts and how to make it in what order etc.
+must include: what meal of the day(breakfast, brunch, lunch, supper, snack)
+must include: accounts

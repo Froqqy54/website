@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+    body {
+      background-image: url("salade.jpg");
+      background-size: 200% auto;
+      background-attachment: fixed;
+    }
+    img {
+      transform: scale(0.7);
+      max-width: 80%;
+      max-height: 80%;
+      margin-top: 100px;
+    }
+    .topnav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .topnav a {
+      display: inline-block;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Montserrat", sans-serif;
+    }
+    .topnav a.active {
+      background-color: #466c16;
+    }
+  </style>
+  <script>
+    window.addEventListener("scroll", function () {
+      document.body.style.backgroundPositionY = -(window.pageYOffset / 2) + "px";
+    });
+  </script>
+</head>
+<body>
+  <div class="topnav">
+    <a href="/index.html">Home</a>
+    <a href="/app.html" class="active">Try it out!</a>
+    <a href="/about.html">About</a>
+  </div>
+  <center>
+    <h1 style="font-size:100px">We'll decide for you!</h1>
+  </center>
+  <p style="padding-left:5%; padding-right:5%; text-align:justify; font-size:larger">
+    Just put your ingredients, time, and utensils below, and we'll handle the meals for you!
+  </p>
+  <form class="button">
+      <br>
+      <input type="checkbox" 
+             name="Garlic" 
+             value="yes">Garlic
+      <br>
+      <input type="checkbox" 
+             name="Onion" 
+             value="yes">Onion
+      <br>
+      <input type="checkbox" 
+             name="Lettuce" 
+             value="yes">Lettuce
+      <br>
+      <input type="checkbox" 
+             name="Tomato" 
+             value="yes">Tomato
+      <br>
+      <input type="submit" name="Submit" value="That's all!">
+
+  </form>
+
+</body>
+</html>

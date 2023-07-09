@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--          shift alt f for reformat                   //-->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Meal Decider</title>
+    <style>
+      body {
+        background-image: url("salade.jpg");
+        background-size: 200% auto;
+        background-attachment: fixed;
+      }
+
+      img {
+        transform: scale(0.7);
+        max-width: 20%;
+        max-height: 20%;
+        margin-right: 100px;
+        margin-top: 300px;
+      }
+
+      .text {
+        overflow: hidden;
+      }
+
+      .topnav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .topnav a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .topnav a.active {
+        background-color: #466c16;
+      }
+    </style>
+    <script>
+      window.addEventListener("scroll", function () {
+        document.body.style.backgroundPositionY =
+          -(window.pageYOffset / 2) + "px";
+      });
+    </script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="/home">Home</a>
+      <a href="/app.html">Try it out!</a>
+      <a href="/about.html">About</a>
+    </div>
+
+    <div class="text">
+      <p style="font-size: 80px; margin-left: 30px">
+        <b>Lorem ipsum? Dolor sit amet!</b>
+      </p>
+      <div class="image">
+        <img
+          src="gpt.png"
+          class="scaled-image"
+          align="right"
+          style="margin-right: 100px; margin-top: 30px"
+        />
+      </div>
+    </div>
+    <hr />
+    <p style="font-size: 20px; margin-left: 50px">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <button
+      class="button"
+      style="margin-left: 100px; margin-top: 100px; border-radius: 8px"
+    >
+      Lorem ipsum dolor sit amet!
+    </button>
+    <center>
+      <p
+        onclick="window.location.href='/app';"
+        style="font-size: 50px; padding: 10px"
+      >
+        <b>Lorem ipsum dolor sit amet</b>
+      </p>
+    </center>
+    <p style="font-size: 20px; margin-left: 50px">
+      Maecenas semper pharetra enim, eu ultricies enim tempor a. Duis ac ex
+      maximus, condimentum metus at, elementum eros. Etiam mollis nisi bibendum
+      vestibulum sollicitudin. Sed ultrices turpis sit amet nulla commodo, sed
+      vestibulum nisl aliquam. Ut interdum eros a massa hendrerit aliquam. Nam
+      porttitor risus in neque auctor, a dignissim ex commodo. Duis vel semper
+      arcu, in dapibus augue. Duis fermentum fermentum magna, vel commodo metus
+      gravida et. Sed blandit condimentum leo vitae varius. Donec tincidunt
+      tellus sapien. Aenean consequat posuere sem, vitae placerat magna aliquam
+      non. Nam ut lobortis enim, id consequat augue. Quisque condimentum feugiat
+      arcu ut dapibus. Integer maximus sem sed fermentum scelerisque. Vestibulum
+      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      curae.
+    </p>
+  </body>
+</html>
